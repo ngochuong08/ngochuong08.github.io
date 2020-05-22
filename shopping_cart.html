@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Trang chủ</title>
+  <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+
+  <link href='https://fonts.googleapis.com/css?family=PT+Sans:400,700italic,700,400italic' rel='stylesheet'
+    type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Dosis:400,300,200,500,600,700,800' rel='stylesheet'
+    type='text/css'>
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+
+  <link rel="stylesheet" type="text/css" href="css/font-awesome.css" media="all">
+  <link rel="stylesheet" type="text/css" href="css/style.css" media="all">
+
+</head>
+
+<body class="cms-index-index cms-home-page">
+  <div id="page">
+    <!-- Header -->
+    <header>
+      <div class="header-container">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-4 col-sm-4 col-md-5 col-xs-12 hidden-xs">
+              <!-- Default Welcome Message -->
+              <div class="address-header ">123 Lê Lai, Quận 1</div>
+              <span class="phone hidden-sm">(+84) 123.456.789</span>
+            </div>
+
+            <!-- top links -->
+            <div class="headerlinkmenu col-lg-8 col-md-7 col-sm-8 col-xs-12">
+              <div class="links">
+                <div class="login">
+                  <a href="account_page.html">
+                    <i class="fa fa-unlock-alt"></i>
+                    <span class="hidden-xs">Đăng nhập</span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-6 col-md-3 col-xs-12 col-lg-3">
+              <!-- Header Logo -->
+              <div class="logo">
+                <a title="e-commerce" href="index.html">
+                  <img alt="responsive theme logo" src="images/logo.png">
+                </a>
+              </div>
+              <!-- End Header Logo -->
+            </div>
+            <div class="col-7 col-xs-12 col-md-6  col-lg-6">
+              <!-- Search -->
+              <div class="top-search">
+                <div id="search">
+                  <form>
+                    <div class="input-group">
+                      <input type="text" class="form-control" placeholder="Tìm kiếm" name="search">
+                      <button class="btn-search" type="button">
+                        <i class="fa fa-search"></i>
+                      </button>
+                    </div>
+                  </form>
+                </div>
+              </div>
+
+              <!-- End Search -->
+            </div>
+            <!-- top cart -->
+
+            <div class="col-5 col-lg-3 col-md-3 col-xs-3  col-lg-3 top-cart">
+              <div class="top-cart-contain">
+                <div class="mini-cart">
+                  <div class="basket dropdown-toggle">
+                    <a href="./shopping_cart.html">
+                      <div class="cart-icon">
+                        <i class="fa fa-shopping-cart"></i>
+                      </div>
+                      <div class="shoppingcart-inner hidden-xs">
+                        <span class="cart-title">Giỏ hàng</span>
+                        <span class="cart-total">2</span>
+                      </div>
+                    </a>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div style="background-color: #fed700;">
+        <div class="container" style="background-color: #fed700;">
+          <nav class="navbar navbar-expand-lg navbar-light">
+            <a class="navbar-brand" href="./index.html"><i class="fa fa-2x fa-home"></i></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item menu-item">
+                  <a class="nav-link" href="#">MAC</a>
+                </li>
+                <li class="nav-item menu-item">
+                  <a class="nav-link" href="#">WATCH</a>
+                </li>
+                <li class="nav-item menu-item">
+                  <a class="nav-link" href="#">MACBOOK CŨ</a>
+                </li>
+                <li class="nav-item menu-item">
+                  <a class="nav-link" href="#">DELL</a>
+                </li>
+                <li class="nav-item menu-item">
+                  <a class="nav-link" href="#">SURFACE</a>
+                </li>
+                <li class="nav-item menu-item">
+                  <a class="nav-link" href="#">IPHONE</a>
+                </li>
+                <li class="nav-item menu-item">
+                  <a class="nav-link" href="#">PHỤ KIỆN</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+        </div>
+      </div>
+    </header>
+    <!-- end header -->
+    <!-- main container -->
+    <section class="main-container col1-layout">
+      <div class="main container">
+        <div class="col-main">
+          <div class="cart">
+
+            <div class="page-content page-order">
+              <div class="page-title">
+                <h2>Giỏ hàng</h2>
+              </div>
+
+
+              <div class="order-detail-content">
+                <div class="table-responsive">
+                  <table class="table table-bordered cart_summary">
+                    <thead>
+                      <tr>
+                        <th class="cart_product">Sản phẩm</th>
+                        <th>Mô tả</th>
+                        <th>Tình trạng</th>
+                        <th>Đơn giá</th>
+                        <th>Số lượng</th>
+                        <th>Tổng tiền</th>
+                        <th class="action"><i class="fa fa-trash-o"></i></th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr class="row-1">
+                        <td class="cart_product"><a href="#"><img src="images/products/img01.jpg" alt="Product"></a>
+                        </td>
+                        <td class="cart_description">
+                          <p class="product-name"><a href="#">Apple Watch Series 5</a></p>
+                          <small><a href="#">Màu sắc: Đỏ</a></small><br>
+                          <small><a href="#">Size : M</a></small>
+                        </td>
+                        <td class="availability in-stock"><span class="label">Còn hàng</span></td>
+                        <td class="price"><span title="10000000">10.000.000</span></td>
+                        <td class="qty" id="product-1">
+                          <input class="form-control input-sm quantity" type="number" value="1" min="1" max="10">
+                        </td>
+                        <td class="price real-price"><span title="10000000">10.000.000</span></td>
+                        <td class="action">
+                          <a style="cursor:pointer;" class="remove" data-id="1">
+                            <i class="fa fa-trash"> </i>
+                          </a>
+                        </td>
+                      </tr>
+                      <tr class="row-2">
+                        <td class="cart_product"><a href="#"><img src="images/products/img02.jpg" alt="Product"></a>
+                        </td>
+                        <td class="cart_description">
+                          <p class="product-name"><a href="#">Apple Watch Series 5</a></p>
+                          <small><a href="#">Màu sắc: Blue</a></small><br>
+                          <small><a href="#">Size : S</a></small>
+                        </td>
+                        <td class="availability in-stock"><span class="label">Còn hàng</span></td>
+                        <td class="price"><span title="9000000">9.000.000</span></td>
+                        <td class="qty" id="product-2">
+                          <input class="form-control input-sm quantity" type="number" value="2" min="1" max="10">
+                        </td>
+                        <td class="price real-price"><span title="18000000">18.000.000</span></td>
+                        <td class="action">
+                          <a style="cursor:pointer;" class="remove" data-id="2">
+                            <i class="fa fa-trash"> </i>
+                          </a>
+                        </td>
+                      </tr>
+                      <tr class="row-3">
+                        <td class="cart_product"><a href="#"><img src="images/products/img01.jpg" alt="Product"></a>
+                        </td>
+                        <td class="cart_description">
+                          <p class="product-name"><a href="#">Apple Watch Series 5</a></p>
+                          <small><a href="#">Màu sắc: Blue</a></small><br>
+                          <small><a href="#">Size : S</a></small>
+                        </td>
+                        <td class="availability in-stock"><span class="label">Còn hàng</span></td>
+                        <td class="price"><span title="9000000">9.000.000</span></td>
+                        <td class="qty" id="product-3">
+                          <input class="form-control input-sm quantity" type="number" value="1" min="1" max="10">
+                        </td>
+                        <td class="price real-price"><span title="9000000">9.000.000</span></td>
+                        <td class="action">
+                          <a style="cursor:pointer;" class="remove" data-id="3">
+                            <i class="fa fa-trash"> </i>
+                          </a>
+                        </td>
+                      </tr>
+                    </tbody>
+                    <tfoot>
+                      <tr>
+                        <td colspan="5"><strong>Thành tiền</strong></td>
+                        <td colspan="2"><strong id="total" title="37000000">37.000.000</strong></td>
+                      </tr>
+                    </tfoot>
+                  </table>
+                </div>
+                <div class="cart_navigation"> <a class="continue-btn" href="#"><i class="fa fa-arrow-left"> </i>&nbsp;
+                    Tiếp tục mua sắm</a> <a class="checkout-btn" href="#"><i class="fa fa-check"></i> Đặt hàng</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end main container -->
+    <footer>
+      <div class="footer-newsletter">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-8 col-sm-7">
+              <form id="newsletter-validate-detail" method="post" action="#">
+                <h3 class="hidden-sm">Đăng kí để nhận bản tin</h3>
+                <div class="newsletter-inner">
+                  <input class="newsletter-email" name="Email" placeholder="Nhập email">
+                  <button class="button Subscribe" type="submit" title="Subscribe">Nhận tin</button>
+                </div>
+              </form>
+            </div>
+            <div class="social col-md-4 col-sm-5">
+              <ul class="inline-mode">
+                <li class="social-network fb">
+                  <a title="Connect us on Facebook" target="_blank" href="https://www.facebook.com/">
+                    <i class="fa fa-facebook"></i>
+                  </a>
+                </li>
+                <li class="social-network googleplus">
+                  <a title="Connect us on Google+" target="_blank" href="https://plus.google.com/">
+                    <i class="fa fa-google-plus"></i>
+                  </a>
+                </li>
+                <li class="social-network tw">
+                  <a title="Connect us on Twitter" target="_blank" href="https://twitter.com/">
+                    <i class="fa fa-twitter"></i>
+                  </a>
+                </li>
+                <li class="social-network linkedin">
+                  <a title="Connect us on Linkedin" target="_blank" href="https://www.pinterest.com/">
+                    <i class="fa fa-linkedin"></i>
+                  </a>
+                </li>
+                <li class="social-network rss">
+                  <a title="Connect us on Instagram" target="_blank" href="https://instagram.com/">
+                    <i class="fa fa-rss"></i>
+                  </a>
+                </li>
+                <li class="social-network instagram">
+                  <a title="Connect us on Instagram" target="_blank" href="https://instagram.com/">
+                    <i class="fa fa-instagram"></i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-coppyright">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-6 col-xs-12 coppyright"> Copyright © 2018 MyStore. Develop by
+              <a href="https://www.facebook.com/huongnguyen.nh"> Huong </a>. All Rights Reserved. </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+
+  <!-- jquery js -->
+  <script type="text/javascript" src="./js/jquery.min.js"></script>
+
+  <!-- bootstrap js -->
+  <script type="text/javascript" src="./js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="./js/popper.min.js"></script>
+
+  <script>
+    function formatNum(num) {
+      return Math.round(num).toString().replace(/\B(?=(\d{3})+(?!\d))/g, '.')
+    }
+    $(document).ready(function () {
+      $('.remove').click(function () {
+        let parent = $(this).parent().parent();
+        let priceItem = parent.children('.price').children('span').attr('title')
+        let qtyItem = parent.children('.qty').children('input').val()
+        let total = $('#total').attr('title')
+        let newTotal = total - priceItem * qtyItem
+        $('#total').attr('title', newTotal)
+        $('#total').text(formatNum(newTotal))
+        parent.hide(500)
+      })
+      $('.quantity').on('change', function () {
+        let qty = $(this).val();
+
+        let parent = $(this).parent().parent()
+        let oldPrice = parent.children('.real-price').children('span').attr('title')
+
+        let priceItem = parent.children('.price').children('span').attr('title')
+        let newPrice = qty * priceItem
+        parent.children('.real-price').children('span').text(formatNum(newPrice))
+        parent.children('.real-price').children('span').attr('title', newPrice)
+
+        let total = $('#total').attr('title')
+        let newTotal = eval(`${total} + ${newPrice} - ${oldPrice}`)
+        $('#total').attr('title', newTotal)
+        $('#total').text(formatNum(newTotal))
+      })
+    })
+  </script>
+</body>
+
+</html>
